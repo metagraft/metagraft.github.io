@@ -45,7 +45,7 @@ footer, header, hgroup, menu, nav, section {
 body
 {
 	background: #FFF;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Calibre', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #555;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
@@ -77,4 +77,29 @@ a {
 
 em {
     font-style: italic;
+}
+
+/* Styles ----------- */
+
+.inline-logo {
+   width: 40px;
+   height: 40px;
+   display: block;
+   background: url('../images/logo.png') top left no-repeat;
+   background-size: 40px 40px;
+}
+
+h1 {
+   font-size: 60px;
+   line-height: 56px;
+   color: #FF2525;
+   padding: 60px 0 0 0;
+}
+
+.contact {
+   overflow: hidden;
+}
+
+.column {
+   float: left;
 }
