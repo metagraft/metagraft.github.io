@@ -71,9 +71,8 @@ table {
 	border-spacing: 0;
 }
 
-a {
-	text-decoration: none;
-}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
 
 em {
     font-style: italic;
@@ -93,7 +92,29 @@ h1 {
    font-size: 60px;
    line-height: 56px;
    color: #FF2525;
-   padding: 60px 0 0 0;
+   padding: 60px 0;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 14px;
+	line-height: 14px;
+	color: #959595;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0 0 15px 0;
+}
+
+.page {
+	width: 650px;
+	height: 370px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -325px;
+	margin-top: -185px;
 }
 
 .contact {
@@ -102,4 +123,29 @@ h1 {
 
 .column {
    float: left;
+	padding: 0 60px 0 0;
 }
+
+ul.list {
+	margin: 0;
+	padding: 0;
+}
+
+	ul.list li {
+		list-style: none;
+		font-size: 20px;
+		line-height: 20px;
+		padding: 0 0 8px 0;
+		color: #151515;
+	}
+
+		ul.list li a,
+		ul.list li span {
+			color: inherit;
+			font-size: inherit;
+		}
+
+/* Media Queries ---------- */
+/*.rwd-hidden {
+	display: none;
+}*/
